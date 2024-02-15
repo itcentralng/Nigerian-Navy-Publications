@@ -1,0 +1,68 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+:root{
+  --golden: #d1c62aa0;
+}
+
+
+@font-face{
+  font-family: 'Bellefair';
+  src: url('./fonts/Bellefair/Bellefair-Regular.ttf')
+}
+
+@font-face{
+  font-family: 'Manrope';
+  src: url('./fonts/Bellefair/Manrope/Manrope-VariableFont_wght.ttf')
+}
+
+@font-face{
+  font-family: 'Playfair';
+  src: url('./fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf')
+}
+.hero{
+  background-image: url('images/ship1.jpg');
+}
+/*** text ***/
+.hero-text{
+  font-family: 'Bellefair';
+  font-size: 128px; 
+  width: 1133px;
+  height:441px; 
+  margin-left: 146px; 
+  line-height: 146.69px;
+  padding-top: 146px;
+}
+
+.hero-small-text{
+  font-family: 'Manrope';
+  color: white;
+  font-size: 28px;
+  line-height: 42px;
+  width: 628px;
+  height: 168px;
+  text-align: left;
+}
+
+.pub-text{
+  font-family: 'Bellefair';
+  font-size: 128px; 
+  width: 880px;
+  height:408px; 
+  margin-left: 146px; 
+  line-height: 135.68px;
+  padding-top: 140px;
+}
+
+.list-text{
+  font-family: 'Playfair';
+  font-size: 33.39px;
+  line-height: 44.51px;
+  color: white;
+}
+
+.bullet{
+  box-shadow: 0px 0px 0px 9px var(--golden);
+  background-color: #D1C62A;
+}
