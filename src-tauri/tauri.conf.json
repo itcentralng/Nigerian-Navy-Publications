@@ -3,8 +3,8 @@
   "build": {
     "beforeBuildCommand": "npm run build",
     "beforeDevCommand": "npm run dev",
-    "devPath": "http://localhost:5173",
-    "distDir": "../src"
+    "devPath": "http://localhost:3000",
+    "distDir": "../dist"
   },
   "package": {
     "productName": "nigerian-navy-publications",
@@ -29,7 +29,7 @@
         "icons/icon.icns",
         "icons/icon.ico"
       ],
-      "identifier": "com.tauri.dev",
+      "identifier": "com.example",
       "longDescription": "",
       "macOS": {
         "entitlements": null,

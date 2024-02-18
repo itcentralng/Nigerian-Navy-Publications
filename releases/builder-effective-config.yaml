@@ -1,0 +1,19 @@
+directories:
+  output: releases
+  buildResources: dist
+appId: electron-react-vite
+win:
+  target:
+    - nsis
+files:
+  - filter:
+      - dist/**/*
+      - main.cjs
+      - node-modules/**/*
+      - package.json
+nsis:
+  uninstallDisplayName: Uninstall this app
+  license: license.txt
+  oneClick: false
+  allowToChangeInstallationDirectory: true
+electronVersion: 28.2.3

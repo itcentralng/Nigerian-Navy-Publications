@@ -7,7 +7,7 @@ import logo from "../images/logo.png";
 import scrollUp from "../images/Scroll (1).png";
 import { Link } from "react-router-dom";
 
-const Publications = ({ clicked, setClicked }) => {
+const Publications = ({ clicked, setclicked }) => {
   const [count, setCount] = useState(0);
   const [publications, setPublications] = useState(data);
   /*const [currentImage, setCurrentImage] = useState(publications[count]);*/
@@ -39,36 +39,48 @@ const Publications = ({ clicked, setClicked }) => {
   }, [count]);
 
   return (
-    <Background>
-      {/*<img
-        src={scrollUp}
-        alt="scrollup"
-        className="ml-[100px] mt-[40px] mb-[-100px] size-[60px]"
-        onClick={() => setClicked(false)}
-  />*/}
-      <div className={"flex flex-row justify-between "}>
-        <div>
-          <h1
-            className=" pub-text my-auto text-[#D1C62A]
-        "
-          >
-            Publications of the Nigerian Navy
-          </h1>
+    <div
+      className={
+        clicked
+          ? "absolute top-[0px] z-10 duration-500"
+          : "fixed top-[100%] z-10 duration-500"
+      }
+    >
+      <Background>
+        <div className={"flex flex-row justify-between"}>
+          <div>
+            <img
+              src={scrollUp}
+              alt="scrollup"
+              className=" scrollup ml-[100px] mt-[40px] mb-[-100px] hover:bg-[#fffdd059] hover:shadow-2xl rounded-full"
+              onClick={() => {
+                return setclicked(false);
+              }}
+            />
+
+            <h1
+              className=" pub-text
+                  
+                  "
+            >
+              Publications of the Nigerian Navy
+            </h1>
+            <img
+              src={logo}
+              alt="navy-logo"
+              className="w-[65px] h-[80px]
+                  ml-[325px] mt-[-230px]"
+            />
+            <ScrollPublications count={count} setCount={setCount} />
+          </div>
           <img
-            src={logo}
-            alt="navy-logo"
-            className="w-[65px] h-[80px]
-        ml-[325px] mt-[260px]"
+            src={publications[count]}
+            alt="publication-image"
+            className="pt-[150px] right-[100px] h-[590px] duration-300 fixed"
           />
-          <ScrollPublications count={count} setCount={setCount} />
         </div>
-        <img
-          src={publications[count]}
-          alt="publication-image"
-          className="pt-[150px] right-[100px] h-[590px] duration-300 fixed"
-        />
-      </div>
-    </Background>
+      </Background>
+    </div>
   );
 };
 
