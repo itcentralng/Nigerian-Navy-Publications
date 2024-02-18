@@ -5,7 +5,7 @@ const ScrollPublications = ({ count, setCount }) => {
     <div className="ml-[146px] mt-[150px]">
       <div
         onClick={() => setCount(0)}
-        className="flex flex-row justify-between max-w-[640px] mb-[0px]"
+        className="flex flex-row justify-between max-w-[490px] mb-[0px]"
       >
         <div
           className={`${
@@ -34,7 +34,7 @@ const ScrollPublications = ({ count, setCount }) => {
 
       <div
         onClick={() => setCount(1)}
-        className="flex flex-row justify-between max-w-[510px] mt-0
+        className="flex flex-row justify-between max-w-[390px] mt-0
               "
       >
         <div
@@ -60,7 +60,7 @@ const ScrollPublications = ({ count, setCount }) => {
 
       <div
         onClick={() => setCount(2)}
-        className="flex flex-row justify-between max-w-[510px]"
+        className="flex flex-row justify-between max-w-[390px]"
       >
         <div
           className={`${
@@ -85,7 +85,7 @@ const ScrollPublications = ({ count, setCount }) => {
 
       <div
         onClick={() => setCount(3)}
-        className="flex flex-row justify-between max-w-[800px] mt-0
+        className="flex flex-row justify-between max-w-[640px] mt-0
               "
       >
         <div
@@ -111,7 +111,7 @@ const ScrollPublications = ({ count, setCount }) => {
 
       <div
         onClick={() => setCount(4)}
-        className="flex flex-row justify-between max-w-[500px] mt-0
+        className="flex flex-row justify-between max-w-[380px] mt-0
               "
       >
         <div
@@ -137,7 +137,7 @@ const ScrollPublications = ({ count, setCount }) => {
 
       <div
         onClick={() => setCount(5)}
-        className="flex flex-row justify-between max-w-[380px] mt-0
+        className="flex flex-row justify-between max-w-[290px] mt-0
               "
       >
         <div
@@ -161,7 +161,7 @@ const ScrollPublications = ({ count, setCount }) => {
 
       <div
         onClick={() => setCount(6)}
-        className="flex flex-row justify-between max-w-[490px] mt-0
+        className="flex flex-row justify-between max-w-[375px] mt-0
               "
       >
         <div
@@ -187,7 +187,7 @@ const ScrollPublications = ({ count, setCount }) => {
 
       <div
         onClick={() => setCount(7)}
-        className="flex flex-row justify-between max-w-[640px] mt-0
+        className="flex flex-row justify-between max-w-[489px] mt-0
               "
       >
         <div
@@ -213,7 +213,7 @@ const ScrollPublications = ({ count, setCount }) => {
 
       <div
         onClick={() => setCount(8)}
-        className="flex flex-row justify-between max-w-[540px] mt-0
+        className="flex flex-row justify-between max-w-[410px] mt-0
               "
       >
         <div
@@ -239,7 +239,7 @@ const ScrollPublications = ({ count, setCount }) => {
 
       <div
         onClick={() => setCount(9)}
-        className="flex flex-row justify-between max-w-[600px] mt-0
+        className="flex flex-row justify-between max-w-[456px] mt-0
               "
       >
         <div
@@ -248,7 +248,7 @@ const ScrollPublications = ({ count, setCount }) => {
           }  w-2 h-2 rounded-full mt-5`}
         ></div>
         <p className="list-text cursor-pointer">
-          Nava Engineering Digest (March 2023)
+          Naval Engineering Digest (March 2023)
         </p>
       </div>
       {count == 9 ? (
@@ -265,7 +265,7 @@ const ScrollPublications = ({ count, setCount }) => {
 
       <div
         onClick={() => setCount(10)}
-        className="flex flex-row justify-between max-w-[620px] mt-0
+        className="flex flex-row justify-between max-w-[467px] mt-0
               "
       >
         <div
@@ -291,7 +291,7 @@ const ScrollPublications = ({ count, setCount }) => {
 
       <div
         onClick={() => setCount(11)}
-        className="flex flex-row justify-between max-w-[680px] mt-0
+        className="flex flex-row justify-between max-w-[520px] mt-0
               "
       >
         <div
@@ -300,7 +300,7 @@ const ScrollPublications = ({ count, setCount }) => {
           }  w-2 h-2 rounded-full mt-5`}
         ></div>
         <p className="list-text cursor-pointer">
-          NigerianNavy Financial Digest (august 2021)
+          Nigerian Navy Financial Digest (august 2021)
         </p>
       </div>
       {count == 11 ? (
@@ -317,7 +317,7 @@ const ScrollPublications = ({ count, setCount }) => {
 
       <div
         onClick={() => setCount(12)}
-        className="flex flex-row justify-between max-w-[380px] mt-0
+        className="flex flex-row justify-between max-w-[290px] mt-0
               "
       >
         <div
@@ -341,7 +341,7 @@ const ScrollPublications = ({ count, setCount }) => {
 
       <div
         onClick={() => setCount(13)}
-        className="flex flex-row justify-between max-w-[490px] mt-0
+        className="flex flex-row justify-between max-w-[370px] mt-0
               "
       >
         <div
@@ -367,7 +367,7 @@ const ScrollPublications = ({ count, setCount }) => {
 
       <div
         onClick={() => setCount(14)}
-        className="flex flex-row justify-between max-w-[390px] mt-0
+        className="flex flex-row justify-between max-w-[290px] mt-0
               "
       >
         <div
@@ -391,7 +391,7 @@ const ScrollPublications = ({ count, setCount }) => {
 
       <div
         onClick={() => setCount(15)}
-        className="flex flex-row justify-between max-w-[610px] mt-0
+        className="flex flex-row justify-between max-w-[450px] mt-0
               "
       >
         <div
@@ -417,7 +417,7 @@ const ScrollPublications = ({ count, setCount }) => {
 
       <div
         onClick={() => setCount(16)}
-        className="flex flex-row justify-between max-w-[440px] mt-0
+        className="flex flex-row justify-between max-w-[320px] mt-0
               "
       >
         <div
@@ -441,7 +441,7 @@ const ScrollPublications = ({ count, setCount }) => {
 
       <div
         onClick={() => setCount(17)}
-        className="flex flex-row justify-between max-w-[420px] mt-0
+        className="flex flex-row justify-between max-w-[300px] mt-0
               "
       >
         <div
@@ -465,7 +465,7 @@ const ScrollPublications = ({ count, setCount }) => {
 
       <div
         onClick={() => setCount(18)}
-        className="flex flex-row justify-between max-w-[470px] mt-0
+        className="flex flex-row justify-between max-w-[340px] mt-0
               "
       >
         <div
@@ -489,7 +489,7 @@ const ScrollPublications = ({ count, setCount }) => {
 
       <div
         onClick={() => setCount(19)}
-        className="flex flex-row justify-between max-w-[595px] mt-0
+        className="flex flex-row justify-between max-w-[430px] mt-0
               "
       >
         <div
@@ -515,7 +515,7 @@ const ScrollPublications = ({ count, setCount }) => {
 
       <div
         onClick={() => setCount(20)}
-        className="flex flex-row justify-between max-w-[470px] mt-0
+        className="flex flex-row justify-between max-w-[335px] mt-0
               "
       >
         <div
@@ -539,7 +539,7 @@ const ScrollPublications = ({ count, setCount }) => {
 
       <div
         onClick={() => setCount(21)}
-        className="flex flex-row justify-between max-w-[390px] mt-0
+        className="flex flex-row justify-between max-w-[270px] mt-0
               "
       >
         <div
@@ -563,7 +563,7 @@ const ScrollPublications = ({ count, setCount }) => {
 
       <div
         onClick={() => setCount(22)}
-        className="flex flex-row justify-between max-w-[300px] mt-0
+        className="flex flex-row justify-between max-w-[200px] mt-0
               "
       >
         <div
@@ -587,7 +587,7 @@ const ScrollPublications = ({ count, setCount }) => {
 
       <div
         onClick={() => setCount(23)}
-        className="flex flex-row justify-between max-w-[390px] mt-0
+        className="flex flex-row justify-between max-w-[267px] mt-0
               "
       >
         <div
@@ -611,7 +611,7 @@ const ScrollPublications = ({ count, setCount }) => {
 
       <div
         onClick={() => setCount(24)}
-        className="flex flex-row justify-between max-w-[310px] mt-0
+        className="flex flex-row justify-between max-w-[210px] mt-0
               "
       >
         <div
@@ -635,7 +635,7 @@ const ScrollPublications = ({ count, setCount }) => {
 
       <div
         onClick={() => setCount(25)}
-        className="flex flex-row justify-between max-w-[330px] mt-0
+        className="flex flex-row justify-between max-w-[225px] mt-0
               "
       >
         <div
@@ -659,7 +659,7 @@ const ScrollPublications = ({ count, setCount }) => {
 
       <div
         onClick={() => setCount(26)}
-        className="flex flex-row justify-between max-w-[510px] mt-0
+        className="flex flex-row justify-between max-w-[380px] mt-0
               "
       >
         <div
@@ -683,7 +683,7 @@ const ScrollPublications = ({ count, setCount }) => {
 
       <div
         onClick={() => setCount(27)}
-        className="flex flex-row justify-between max-w-[350px] mt-0
+        className="flex flex-row justify-between max-w-[260px] mt-0
               "
       >
         <div

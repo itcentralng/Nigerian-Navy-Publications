@@ -19,13 +19,13 @@ const Hero = () => {
             </h1>
             <Logo />
           </div>
-          <div className=" flex flex-col text-start ml-[-145px]">
+          <div className=" flex flex-col text-start ml-[-110px]">
             <img
               src={navyguys}
-              className=" rounded-[12px]
-        border-[#D1C62A] border-4 mt-[450px]"
+              className=" rounded-[12px] w-[450px]
+        border-[#D1C62A] border-4 mt-[370px]"
             />
-            <p className="hero-small-text mt-[50px] font-semibold">
+            <p className="hero-small-text mt-[35px] font-semibold">
               From Successful Maritime Operations To Humanitarian Missions, Our
               Naval Forces Continue To Uphold The Highest Standards Of
               Professionalism And Excellence.
@@ -35,7 +35,7 @@ const Hero = () => {
         <img
           src={scroll}
           alt="scroll"
-          className="ml-[146px] mt-[-120px] hover:size-[107px]"
+          className="ml-[100px] mt-[-130px] size-[70px] hover:size-[75px]"
           onClick={() => setClicked(true)}
         />
         <div
@@ -45,7 +45,8 @@ const Hero = () => {
               : "fixed top-[100%] z-10 duration-500"
           }
         >
-          {clicked && <Publications clicked={clicked} />}
+          <Publications setClicked={setClicked} />
+          {/*clicked && */}
         </div>
       </div>
     </Background>

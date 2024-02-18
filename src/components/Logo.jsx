@@ -6,8 +6,8 @@ const Logo = () => {
     <img
       src={logo}
       alt="navy-logo"
-      className="w-[75px] height-[470px]
-        ml-[525px] mt-[20px]"
+      className="w-[65px] h-[80px]
+        ml-[325px] mt-[200px]"
     />
   );
 };

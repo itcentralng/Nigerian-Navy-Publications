@@ -22,42 +22,42 @@
   src: url('./fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf')
 }
 .hero{
-  background-image: url('images/ship1.jpg');
+  background-image: url('images/shipmain.jpg');
 }
 /*** text ***/
 .hero-text{
   font-family: 'Bellefair';
-  font-size: 128px; 
-  width: 1133px;
-  height:441px; 
-  margin-left: 146px; 
-  line-height: 146.69px;
+  font-size: 80px; 
+  width: 720px;
+  height:68px; 
+  margin-left: 80px; 
+  line-height: 100px;
   padding-top: 146px;
 }
 
 .hero-small-text{
   font-family: 'Manrope';
   color: white;
-  font-size: 28px;
-  line-height: 42px;
-  width: 628px;
+  font-size: 22px;
+  line-height: 32px;
+  width: 470px;
   height: 168px;
   text-align: left;
 }
 
 .pub-text{
   font-family: 'Bellefair';
-  font-size: 128px; 
-  width: 880px;
-  height:408px; 
-  margin-left: 146px; 
-  line-height: 135.68px;
+  font-size: 100px; 
+  width: 600px;
+  height:68px; 
+  margin-left: 100px; 
+  line-height: 120px;
   padding-top: 140px;
 }
 
 .list-text{
   font-family: 'Playfair';
-  font-size: 33.39px;
+  font-size: 25px;
   line-height: 44.51px;
   color: white;
 }
